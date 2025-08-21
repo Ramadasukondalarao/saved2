@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="category.css">
+</head>
+<body>
+    <header>
+        <h1 id="quiz-title">Quiz</h1>
+    </header>
+    <main>
+        <section id="quiz-container">
+            <p id="question-number"></p>
+            <p id="question-text"></p>
+            <form id="options">
+                <!-- Options will be dynamically populated here -->
+            </form>
+            <div id="buttons">
+                <button id="previous-btn" onclick="previousQuestion()" disabled>Previous</button>
+                <button id="next-btn" onclick="nextQuestion()">Next</button>
+            </div>
+        </section>
+    </main>
+    <script src="category.js"></script>
+</body>
+</html>
+

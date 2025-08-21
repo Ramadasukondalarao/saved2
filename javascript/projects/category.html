@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPSC Subject Categories</title>
+    <link rel="stylesheet" href="category.css">
+</head>
+<body>
+    <header>
+        <h1>UPSC Subject Categories</h1>
+    </header>
+    <main id="subject-list">
+        <button class="subject-btn" onclick="navigateToQuiz('History')">History</button>
+        <button class="subject-btn" onclick="navigateToQuiz('Geography')">Geography</button>
+        <button class="subject-btn" onclick="navigateToQuiz('Political Science')">Political Science</button>
+        <button class="subject-btn" onclick="navigateToQuiz('Economics')">Economics</button>
+        <button class="subject-btn" onclick="navigateToQuiz('Science and Technology')">Science & Technology</button>
+        <button class="subject-btn" onclick="navigateToQuiz('Ethics')">Ethics</button>
+        <button class="subject-btn" onclick="navigateToQuiz('Current Affairs')">Current Affairs</button>
+        <button class="subject-btn" onclick="navigateToQuiz('Environment')">Environment</button>
+    </main>
+    <script>
+        function navigateToQuiz(subject) {
+            window.location.href = `quiz.html?subject=${encodeURIComponent(subject)}`;
+        }
+    </script>
+</body>
+</html>
+
+

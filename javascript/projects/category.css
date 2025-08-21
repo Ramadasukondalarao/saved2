@@ -1,0 +1,236 @@
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+#options label {
+    display: block;
+    margin: 1rem auto;
+    text-align: left;
+    max-width: 300px;
+    background: #fff;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#options input {
+    margin-right: 0.5rem;
+}
+
+#buttons {
+    margin-top: 2rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #45a049;
+}   */
+
+
+
+/* General Styles */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+/* Card Layout */
+/*#categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666;
+}   */
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Subject List (Index Page) */
+#subject-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.subject-btn {
+    width: 90%;
+    max-width: 400px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.subject-btn:hover {
+    background-color: #45a049;
+}
+
+/* Quiz Page */
+#quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#question-number {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#question-text {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+#options label {
+    width: 90%;
+    max-width: 400px;
+    padding: 0.8rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+
+#options input {
+    margin-right: 0.5rem;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 400px;
+}
+
+button {
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #45a049;
+}
+
+
+

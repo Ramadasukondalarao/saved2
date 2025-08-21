@@ -1,0 +1,27 @@
+{
+    "name": "Kondalarao ramadasu",
+    "age" : 24,
+    "isstudent": true,
+    "courses": [
+        "java",
+        "javascript",
+        "React",
+        "python"
+    ],
+    "address" : {
+        "street" : "jujjuru road",
+        "city" :"Kanchikacherla"
+    },
+    "middlename": null,
+    "phoneNo" : [
+        {
+            "type": "Home",
+            "no": 9298298389
+        },
+        {
+            "type":"fix",
+            "no":9082874789
+        }
+    ]
+
+}
